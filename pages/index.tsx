@@ -22,13 +22,10 @@ const Home: NextPage = () => {
       <nav>
         <Header/>
       </nav>
-      <main>
+      <main className = "p-10">
        <HomeContent/>
       </main>
-
-      <footer>
-        <Footer/>
-      </footer>
+    
     </>
   )
 }
